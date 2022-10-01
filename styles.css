@@ -1,0 +1,83 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(assets/white-waves.webp);
+
+}
+
+
+header, footer {
+    background-color: navy;
+    padding: 18px;
+
+}
+
+.link, .logo {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
+
+main, nav {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    margin-right: auto;
+
+}
+
+.link {
+    margin: 0 4px;
+}
+
+aside, article {
+    background-color: white;
+}
+
+img {
+    float: left;
+}
+
+main {
+    display: flex;
+    margin: 30px auto;
+}
+
+article {
+    margin: 0 20px;
+}
+
+aside {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside > nav {
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+nav a {
+    text-decoration: none;
+}
